@@ -1,0 +1,6 @@
+Feature: Testing Test One
+
+  @TestOne
+  Scenario: Testing Test One                                        [90m# Sample.feature:4[0m
+    [33mGiven [0m[33muser launches browser "chrome"[0m
+    [33mAnd [0m[33muser launcing application with URL "https://www.google.com"[0m

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [Parallel Tests]" parallel="tests">
+  <test name="Windows+chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://only-testing-blog.blogspot.in/2014/01/textbox.html"/>
+    <classes>
+      <class name="Grid_MultiBrowser">
+        <methods>
+          <include name="afterTest"/>
+          <include name="waitForButtonEnabled"/>
+          <include name="setup"/>
+          <include name="testCalc"/>
+        </methods>
+      </class> <!-- Grid_MultiBrowser -->
+    </classes>
+  </test> <!-- Windows+chrome Test(failed) -->
+  <test name="Windows+Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://only-testing-blog.blogspot.in/2014/01/textbox.html"/>
+    <classes>
+      <class name="Grid_MultiBrowser">
+        <methods>
+          <include name="afterTest"/>
+          <include name="waitForButtonEnabled"/>
+          <include name="setup"/>
+          <include name="testCalc"/>
+        </methods>
+      </class> <!-- Grid_MultiBrowser -->
+    </classes>
+  </test> <!-- Windows+Firefox Test(failed) -->
+</suite> <!-- Failed suite [Parallel Tests] -->

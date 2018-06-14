@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Testing Test One",
+        "description": "",
+        "id": "testing-test-one;testing-test-one",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user launches browser \"chrome\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user launcing application with URL \"https://www.google.com\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@TestOne"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Test One",
+    "description": "",
+    "id": "testing-test-one",
+    "keyword": "Feature",
+    "uri": "Sample.feature"
+  }
+]
