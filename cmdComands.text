@@ -1,0 +1,7 @@
+/C      Carries out the command specified by string and then terminates
+/K      Carries out the command specified by string but remains
+/S      Modifies the treatment of string after /C or /K (see below)
+/Q      Turns echo off
+/D      Disable execution of AutoRun commands from registry (see below)
+/A      Causes the output of internal commands to a pipe or file to be ANSI
+/U      Causes the output of internal commands to a pipe or file to be Unicode
